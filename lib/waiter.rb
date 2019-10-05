@@ -16,8 +16,8 @@ class Waiter
     end
   end
   
-  def new_meal(waiter,years_of_experience)
-    Meal.new(waiter,self,years_of_experience)
+  def new_meal(waiter,name,years_of_experience)
+    Meal.new(waiter,name,years_of_experience)
   end
   
   def best_tipper
